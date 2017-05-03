@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\List">
+      <UniqueIdentifier>{a6b3dfdd-d396-4a74-8216-af51076fe856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List\Sq">
+      <UniqueIdentifier>{1e2024a6-559a-4d9b-8c50-50de085b09ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List\Link">
+      <UniqueIdentifier>{f52611e8-4dd8-47ca-9eda-b2e6e7ad889d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List\SL">
+      <UniqueIdentifier>{86c31026-06cc-4f02-9586-b65d0f577063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\List">
+      <UniqueIdentifier>{2cbb2842-0c32-4ddc-87b9-16bf499f3a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Stack">
+      <UniqueIdentifier>{8bfccda1-4fa3-448a-bae8-fd7ae792a073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stack">
+      <UniqueIdentifier>{64154c39-2e66-4071-951e-0979a36fe019}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definition.h">
+      <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SqList.h">
+      <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SLList.h">
+      <Filter>头文件\List</Filter>
+    </ClInclude>
+    <ClInclude Include="SqStack.h">
+      <Filter>头文件\Stack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ListDelete_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="ListInsert_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="LocateElem_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="InitList_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeList_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="GetElem_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="ListInsert.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDelete_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateList_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeList_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="LocateElem_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSpace_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="Malloc_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="Free_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="diffrence.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
