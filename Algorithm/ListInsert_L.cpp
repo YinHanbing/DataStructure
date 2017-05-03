@@ -2,7 +2,8 @@
 
 // 在带头结点的单链线性表L中第i个位置之前插入元素e
 Status ListInsert_L(LinkList &L, int i, ElemType e) {
-	LinkList p = L; int j = 0;
+	LinkList p = L;
+	int j = 0;
 	while (p && j < i - 1)	 // 寻找第i-1个节点
 	{	
 		p = p->next;

@@ -128,7 +128,7 @@
     <ClCompile Include="InitSpace_SL.cpp" />
     <ClCompile Include="ListDelete_L.cpp" />
     <ClCompile Include="ListDelete_Sq.cpp" />
-    <ClCompile Include="ListInsert.cpp" />
+    <ClCompile Include="ListInsert_L.cpp" />
     <ClCompile Include="ListInsert_Sq.cpp" />
     <ClCompile Include="LocateElem_SL.cpp" />
     <ClCompile Include="LocateElem_Sq.cpp" />

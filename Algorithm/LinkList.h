@@ -37,7 +37,3 @@ Status ListInsert_L(LinkList &L, int i, ElemType e);
  * 并归La和Lb得到新的顺序线性表Lc，Lc的元素也按非递减值排列
  */
 void MergeList_Sq(LinkList La, LinkList Lb, LinkList &Lc);
-
-
-
-

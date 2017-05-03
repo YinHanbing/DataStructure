@@ -71,9 +71,6 @@
     <ClCompile Include="GetElem_L.cpp">
       <Filter>源文件\List\Link</Filter>
     </ClCompile>
-    <ClCompile Include="ListInsert.cpp">
-      <Filter>源文件\List\Link</Filter>
-    </ClCompile>
     <ClCompile Include="ListDelete_L.cpp">
       <Filter>源文件\List\Link</Filter>
     </ClCompile>
@@ -100,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListInsert_L.cpp">
+      <Filter>源文件\List\Link</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

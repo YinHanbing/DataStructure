@@ -2,6 +2,7 @@
 
 // 逆位序输入n个元素的值，建立带头结点的单链线性表
 void CreateList_L(LinkList &L, int n) {
+	printf("\n请输入上述元素，每个元素间用空格隔开:\n");
 	L = (LinkList)malloc(sizeof(LNode));
 	L->next = NULL;		// 先建立一个带头结点的单链表
 	for (int i = n; i > 0; --i)
