@@ -6,9 +6,11 @@
 #define STACK_ININ_SIZE 5   // 储存空间初始分配量
 #define STACKINSERMENT 2    // 储存空间分配增量
 
+typedef int SElemType;
+
 typedef struct{
     SElemType *base;    // 在栈构造之前和销毁之后，base的值为NULL
-    SElenType *top;     // 栈顶指针
+    SElemType *top;     // 栈顶指针
     int stacksize;      // 当前已分配的储存空间，以元素为单位
 }SqStack;
 
@@ -37,6 +39,6 @@ Status Push(SqStack &S, SElemType e);
 Status Pop(SqStack &S, SElemType &e);
 
 // 从底栈到顶栈依次对栈中每个元素调用函数visit()。一旦发现visit()失败，则操作失败
-Status StackTraverse(SqStack S, Status((*visit)());
+Status StackTraverse(SqStack S, Status (*visit)());
 
 

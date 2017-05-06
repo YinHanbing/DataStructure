@@ -34,11 +34,23 @@
     <Filter Include="源文件\Stack">
       <UniqueIdentifier>{64154c39-2e66-4071-951e-0979a36fe019}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Queue">
+      <UniqueIdentifier>{5f56994f-4e17-4d84-8a2c-8521be40b27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Queue">
+      <UniqueIdentifier>{a5d841c0-0795-45d9-9399-b46e74e9ae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Queue\SqQueue">
+      <UniqueIdentifier>{f3a5257d-cdb5-47b7-bb96-749c015a8cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Queue\LinkQueue">
+      <UniqueIdentifier>{105ca48d-b510-44a9-9e4e-c21b1e47846f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tree">
+      <UniqueIdentifier>{a7567e37-df29-467e-99f8-e15bc237d5ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="definition.h">
-      <Filter>头文件\List</Filter>
-    </ClInclude>
     <ClInclude Include="LinkList.h">
       <Filter>头文件\List</Filter>
     </ClInclude>
@@ -50,6 +62,15 @@
     </ClInclude>
     <ClInclude Include="SqStack.h">
       <Filter>头文件\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="SqQueue.h">
+      <Filter>头文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>头文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="definition.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -100,6 +121,48 @@
     </ClCompile>
     <ClCompile Include="ListInsert_L.cpp">
       <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="DeSqQueue.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="EnSqQueue.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSqQueue.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="SqQueueLength.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="InitLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="DestoryLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="EnLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="DeLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="InitSqStack.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTop.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Push.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Pop.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StackEmpty.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="SqBiTree.cpp">
+      <Filter>头文件\Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

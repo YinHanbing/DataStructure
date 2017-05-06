@@ -115,17 +115,28 @@
   <ItemGroup>
     <ClInclude Include="definition.h" />
     <ClInclude Include="LinkList.h" />
+    <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="SLList.h" />
     <ClInclude Include="SqList.h" />
+    <ClInclude Include="SqQueue.h" />
     <ClInclude Include="SqStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CreateList_L.cpp" />
+    <ClCompile Include="DeLinkQueue.cpp" />
+    <ClCompile Include="DeSqQueue.cpp" />
+    <ClCompile Include="DestoryLinkQueue.cpp" />
     <ClCompile Include="diffrence.cpp" />
+    <ClCompile Include="EnLinkQueue.cpp" />
+    <ClCompile Include="EnSqQueue.cpp" />
     <ClCompile Include="Free_SL.cpp" />
     <ClCompile Include="GetElem_L.cpp" />
+    <ClCompile Include="GetTop.cpp" />
+    <ClCompile Include="InitLinkQueue.cpp" />
     <ClCompile Include="InitList_Sq.cpp" />
+    <ClCompile Include="InitSqQueue.cpp" />
     <ClCompile Include="InitSpace_SL.cpp" />
+    <ClCompile Include="InitSqStack.cpp" />
     <ClCompile Include="ListDelete_L.cpp" />
     <ClCompile Include="ListDelete_Sq.cpp" />
     <ClCompile Include="ListInsert_L.cpp" />
@@ -136,6 +147,11 @@
     <ClCompile Include="Malloc_SL.cpp" />
     <ClCompile Include="MergeList_L.cpp" />
     <ClCompile Include="MergeList_Sq.cpp" />
+    <ClCompile Include="Pop.cpp" />
+    <ClCompile Include="Push.cpp" />
+    <ClCompile Include="SqBiTree.cpp" />
+    <ClCompile Include="SqQueueLength.cpp" />
+    <ClCompile Include="StackEmpty.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
