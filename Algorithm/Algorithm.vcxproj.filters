@@ -188,5 +188,14 @@
     <ClCompile Include="BiTree.h">
       <Filter>头文件\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="InOrderTraverse_Thr.cpp">
+      <Filter>源文件\Tree\BiThrTree</Filter>
+    </ClCompile>
+    <ClCompile Include="InOrderThreading.cpp">
+      <Filter>源文件\Tree\BiThrTree</Filter>
+    </ClCompile>
+    <ClCompile Include="InThreading.cpp">
+      <Filter>源文件\Tree\BiThrTree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

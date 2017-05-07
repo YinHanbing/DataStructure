@@ -139,7 +139,10 @@
     <ClCompile Include="InitSqQueue.cpp" />
     <ClCompile Include="InitSpace_SL.cpp" />
     <ClCompile Include="InitSqStack.cpp" />
+    <ClCompile Include="InOrderThreading.cpp" />
     <ClCompile Include="InOrderTraverse.cpp" />
+    <ClCompile Include="InOrderTraverse_Thr.cpp" />
+    <ClCompile Include="InThreading.cpp" />
     <ClCompile Include="ListDelete_L.cpp" />
     <ClCompile Include="ListDelete_Sq.cpp" />
     <ClCompile Include="ListInsert_L.cpp" />
