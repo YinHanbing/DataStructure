@@ -52,7 +52,10 @@
     <Filter Include="源文件\Tree">
       <UniqueIdentifier>{ff2735f3-9690-4709-bf8b-dae9e934e0ae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\Tree\SqBiTree">
+    <Filter Include="源文件\Tree\BiThrTree">
+      <UniqueIdentifier>{9bab2ed0-88f5-467d-9d41-c66b0de1d4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree\BiTree">
       <UniqueIdentifier>{59d294b9-fce0-4866-84c5-02eaf9cf4506}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -77,6 +80,9 @@
     </ClInclude>
     <ClInclude Include="definition.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BiThrTree.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -167,20 +173,20 @@
     <ClCompile Include="StackEmpty.cpp">
       <Filter>源文件\Stack</Filter>
     </ClCompile>
-    <ClCompile Include="SqBiTree.h">
-      <Filter>头文件\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="InOrderTraverse.cpp">
-      <Filter>源文件\Tree\SqBiTree</Filter>
+      <Filter>源文件\Tree\BiTree</Filter>
     </ClCompile>
     <ClCompile Include="CreatrBiTree.cpp">
-      <Filter>源文件\Tree\SqBiTree</Filter>
+      <Filter>源文件\Tree\BiTree</Filter>
     </ClCompile>
     <ClCompile Include="PrintElement.cpp">
-      <Filter>源文件\Tree\SqBiTree</Filter>
+      <Filter>源文件\Tree\BiTree</Filter>
     </ClCompile>
     <ClCompile Include="PreOrderTraverse.cpp">
-      <Filter>源文件\Tree\SqBiTree</Filter>
+      <Filter>源文件\Tree\BiTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BiTree.h">
+      <Filter>头文件\Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

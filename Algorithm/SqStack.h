@@ -1,7 +1,7 @@
 #pragma once
 
 #include "definition.h"
-#include "SqBiTree.h"
+#include "BiTree.h"
 
 // 栈的顺序储存表示
 #define STACK_ININ_SIZE 5   // 储存空间初始分配量

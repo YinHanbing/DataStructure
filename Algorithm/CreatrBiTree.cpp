@@ -1,4 +1,4 @@
-#include "SqBiTree.h"
+#include "BiTree.h"
 #include "SqStack.h"
 
 /*

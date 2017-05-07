@@ -113,6 +113,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BiThrTree.h" />
     <ClInclude Include="definition.h" />
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="LinkQueue.h" />
@@ -153,7 +154,7 @@
     <ClCompile Include="PreOrderTraverse.cpp" />
     <ClCompile Include="PrintElement.cpp" />
     <ClCompile Include="Push.cpp" />
-    <ClCompile Include="SqBiTree.h" />
+    <ClCompile Include="BiTree.h" />
     <ClCompile Include="SqQueueLength.cpp" />
     <ClCompile Include="StackEmpty.cpp" />
   </ItemGroup>

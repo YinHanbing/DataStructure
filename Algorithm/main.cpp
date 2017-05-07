@@ -6,7 +6,7 @@
 #include "SqStack.h"
 #include "LinkQueue.h"
 */
-#include "SqBiTree.h"
+#include "BiTree.h"
 
 /*
 // 对于输入的任意一个非负十进制整数，打印输出与其等值的八进制数

@@ -1,4 +1,4 @@
-#include "SqBiTree.h"
+#include "BiTree.h"
 
 Status PrintElement(TElemType e) {
 	printf("%c",e);
