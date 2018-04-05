@@ -13,93 +13,264 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\List">
-      <UniqueIdentifier>{a6b3dfdd-d396-4a74-8216-af51076fe856}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\List\Sq">
-      <UniqueIdentifier>{1e2024a6-559a-4d9b-8c50-50de085b09ba}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\List\Link">
-      <UniqueIdentifier>{f52611e8-4dd8-47ca-9eda-b2e6e7ad889d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\List\SL">
-      <UniqueIdentifier>{86c31026-06cc-4f02-9586-b65d0f577063}</UniqueIdentifier>
-    </Filter>
     <Filter Include="头文件\List">
       <UniqueIdentifier>{2cbb2842-0c32-4ddc-87b9-16bf499f3a41}</UniqueIdentifier>
     </Filter>
     <Filter Include="头文件\Stack">
       <UniqueIdentifier>{8bfccda1-4fa3-448a-bae8-fd7ae792a073}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Queue">
+      <UniqueIdentifier>{a5d841c0-0795-45d9-9399-b46e74e9ae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tree">
+      <UniqueIdentifier>{a7567e37-df29-467e-99f8-e15bc237d5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List">
+      <UniqueIdentifier>{a4b0ca7e-9ff3-4fd2-941a-2eb74a6931e9}</UniqueIdentifier>
+    </Filter>
     <Filter Include="源文件\Stack">
-      <UniqueIdentifier>{64154c39-2e66-4071-951e-0979a36fe019}</UniqueIdentifier>
+      <UniqueIdentifier>{96d7d9f3-9454-4e5b-b40d-c0e72d135631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Queue">
+      <UniqueIdentifier>{fad90547-25ab-48f9-b34f-ce7ac0a0294a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree">
+      <UniqueIdentifier>{06ffc6c9-6b0a-4444-aa90-ef3977c245e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List\Link">
+      <UniqueIdentifier>{db4044ce-a766-407c-b70a-4f83d26b02f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List\SL">
+      <UniqueIdentifier>{f579c979-c84f-4e52-827c-0c9d1ca06add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List\Sq">
+      <UniqueIdentifier>{618ee2b4-4431-4b96-84c3-c007ff844954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree\BiThrTree">
+      <UniqueIdentifier>{64c7eec0-088f-4568-8f46-c0b0c60e1122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tree\BiTree">
+      <UniqueIdentifier>{5edab13a-2cdc-45d5-8889-1d6b0c7f00c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Queue\LinkQueue">
+      <UniqueIdentifier>{b4fcb770-d1f9-49c8-8e31-7a66e5bb4537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Queue\SqQueue">
+      <UniqueIdentifier>{fc3d9fa9-8e8c-452e-b454-137ae9cd7759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\List\Link">
+      <UniqueIdentifier>{9913a197-7ffa-42af-9ee5-b69a78891ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\List\Sq">
+      <UniqueIdentifier>{edb77f71-7374-4240-b6c8-02decac22f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\List\SL">
+      <UniqueIdentifier>{cf0620aa-620f-471c-8914-ba35d0240115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Queue\LinkQueue">
+      <UniqueIdentifier>{30aeed0e-e054-4a2c-8f3d-57b55eb7ac2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Queue\SqQueue">
+      <UniqueIdentifier>{046f7e8b-a80a-48c1-980a-554f7c54392d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="definition.h">
-      <Filter>头文件\List</Filter>
-    </ClInclude>
-    <ClInclude Include="LinkList.h">
-      <Filter>头文件\List</Filter>
-    </ClInclude>
-    <ClInclude Include="SqList.h">
-      <Filter>头文件\List</Filter>
-    </ClInclude>
-    <ClInclude Include="SLList.h">
-      <Filter>头文件\List</Filter>
-    </ClInclude>
     <ClInclude Include="SqStack.h">
       <Filter>头文件\Stack</Filter>
     </ClInclude>
+    <ClInclude Include="SqQueue.h">
+      <Filter>头文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>头文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="BiThrTree.h">
+      <Filter>头文件\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Link\CreastList_L.h">
+      <Filter>头文件\List\Link</Filter>
+    </ClInclude>
+    <ClInclude Include="definition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Link\GetElem_L.h">
+      <Filter>头文件\List\Link</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Link\ListDelete_L.h">
+      <Filter>头文件\List\Link</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Link\ListInsert_L.h">
+      <Filter>头文件\List\Link</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Link\MergeList_L.h">
+      <Filter>头文件\List\Link</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Sq\InitList_Sq.h">
+      <Filter>头文件\List\Sq</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Sq\ListDelete_Sq.h">
+      <Filter>头文件\List\Sq</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Sq\ListInsert_Sq.h">
+      <Filter>头文件\List\Sq</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Sq\LocateElem_Sq.h">
+      <Filter>头文件\List\Sq</Filter>
+    </ClInclude>
+    <ClInclude Include="List\Sq\MergeList_Sq.h">
+      <Filter>头文件\List\Sq</Filter>
+    </ClInclude>
+    <ClInclude Include="List\SL\difference.h">
+      <Filter>头文件\List\SL</Filter>
+    </ClInclude>
+    <ClInclude Include="List\SL\Free_SL.h">
+      <Filter>头文件\List\SL</Filter>
+    </ClInclude>
+    <ClInclude Include="List\SL\InitSpace_SL.h">
+      <Filter>头文件\List\SL</Filter>
+    </ClInclude>
+    <ClInclude Include="List\SL\LocateElem_SL.h">
+      <Filter>头文件\List\SL</Filter>
+    </ClInclude>
+    <ClInclude Include="List\SL\Malloc_SL.h">
+      <Filter>头文件\List\SL</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\LinkQueue\DeLinkQueue.h">
+      <Filter>头文件\Queue\LinkQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\LinkQueue\DestoryLinkQueue.h">
+      <Filter>头文件\Queue\LinkQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\LinkQueue\EnLinkQueue.h">
+      <Filter>头文件\Queue\LinkQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\LinkQueue\InitLinkQueue.h">
+      <Filter>头文件\Queue\LinkQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\SqQueue\DeSqQueue.h">
+      <Filter>头文件\Queue\SqQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\SqQueue\EnSqQueue.h">
+      <Filter>头文件\Queue\SqQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\SqQueue\InitSqQueue.h">
+      <Filter>头文件\Queue\SqQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue\SqQueue\SqQueueLength.h">
+      <Filter>头文件\Queue\SqQueue</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ListDelete_Sq.cpp">
-      <Filter>源文件\List\Sq</Filter>
-    </ClCompile>
-    <ClCompile Include="ListInsert_Sq.cpp">
-      <Filter>源文件\List\Sq</Filter>
-    </ClCompile>
-    <ClCompile Include="LocateElem_Sq.cpp">
-      <Filter>源文件\List\Sq</Filter>
-    </ClCompile>
-    <ClCompile Include="InitList_Sq.cpp">
-      <Filter>源文件\List\Sq</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeList_Sq.cpp">
-      <Filter>源文件\List\Sq</Filter>
-    </ClCompile>
-    <ClCompile Include="GetElem_L.cpp">
-      <Filter>源文件\List\Link</Filter>
-    </ClCompile>
-    <ClCompile Include="ListInsert.cpp">
-      <Filter>源文件\List\Link</Filter>
-    </ClCompile>
-    <ClCompile Include="ListDelete_L.cpp">
-      <Filter>源文件\List\Link</Filter>
-    </ClCompile>
-    <ClCompile Include="CreateList_L.cpp">
-      <Filter>源文件\List\Link</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeList_L.cpp">
-      <Filter>源文件\List\Link</Filter>
-    </ClCompile>
-    <ClCompile Include="LocateElem_SL.cpp">
-      <Filter>源文件\List\SL</Filter>
-    </ClCompile>
-    <ClCompile Include="InitSpace_SL.cpp">
-      <Filter>源文件\List\SL</Filter>
-    </ClCompile>
-    <ClCompile Include="Malloc_SL.cpp">
-      <Filter>源文件\List\SL</Filter>
-    </ClCompile>
-    <ClCompile Include="Free_SL.cpp">
-      <Filter>源文件\List\SL</Filter>
-    </ClCompile>
-    <ClCompile Include="diffrence.cpp">
-      <Filter>源文件\List\SL</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BiTree.h">
+      <Filter>头文件\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\GetTop.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\InitSqStack.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\Pop.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\Push.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\StackEmpty.cpp">
+      <Filter>源文件\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\LinkQueue\DeLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\LinkQueue\DestoryLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\LinkQueue\EnLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\LinkQueue\InitLinkQueue.cpp">
+      <Filter>源文件\Queue\LinkQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\SqQueue\DeSqQueue.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\SqQueue\EnSqQueue.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\SqQueue\InitSqQueue.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\SqQueue\SqQueueLength.cpp">
+      <Filter>源文件\Queue\SqQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiThrTree\InOrderThreading.cpp">
+      <Filter>源文件\Tree\BiThrTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiThrTree\InOrderTraverse_Thr.cpp">
+      <Filter>源文件\Tree\BiThrTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiThrTree\InThreading.cpp">
+      <Filter>源文件\Tree\BiThrTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiTree\CreatrBiTree.cpp">
+      <Filter>源文件\Tree\BiTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiTree\InOrderTraverse.cpp">
+      <Filter>源文件\Tree\BiTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiTree\PreOrderTraverse.cpp">
+      <Filter>源文件\Tree\BiTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\BiTree\PrintElement.cpp">
+      <Filter>源文件\Tree\BiTree</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Link\CreateList_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Link\GetElem_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Link\ListDelete_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Link\ListInsert_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Link\MergeList_L.cpp">
+      <Filter>源文件\List\Link</Filter>
+    </ClCompile>
+    <ClCompile Include="List\SL\Malloc_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="List\SL\diffrence.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="List\SL\Free_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="List\SL\InitSpace_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="List\SL\LocateElem_SL.cpp">
+      <Filter>源文件\List\SL</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Sq\InitList_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Sq\ListDelete_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Sq\ListInsert_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Sq\LocateElem_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
+    </ClCompile>
+    <ClCompile Include="List\Sq\MergeList_Sq.cpp">
+      <Filter>源文件\List\Sq</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
